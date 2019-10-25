@@ -13,6 +13,8 @@
 		C733E8D6235F7F5300D1E70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C733E8D4235F7F5300D1E70C /* Main.storyboard */; };
 		C733E8D8235F7F5300D1E70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C733E8D7235F7F5300D1E70C /* Assets.xcassets */; };
 		C733E8DB235F7F5300D1E70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C733E8D9235F7F5300D1E70C /* LaunchScreen.storyboard */; };
+		C733E8E3235F81F000D1E70C /* Tirada.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733E8E2235F81F000D1E70C /* Tirada.swift */; };
+		C733E8E5235F821D00D1E70C /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733E8E4235F821D00D1E70C /* Moneda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C733E8D7235F7F5300D1E70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C733E8DA235F7F5300D1E70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C733E8DC235F7F5400D1E70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C733E8E2235F81F000D1E70C /* Tirada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tirada.swift; sourceTree = "<group>"; };
+		C733E8E4235F821D00D1E70C /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C733E8D0235F7F5300D1E70C /* SceneDelegate.swift */,
 				C733E8D2235F7F5300D1E70C /* ViewController.swift */,
 				C733E8D4235F7F5300D1E70C /* Main.storyboard */,
+				C733E8E2235F81F000D1E70C /* Tirada.swift */,
+				C733E8E4235F821D00D1E70C /* Moneda.swift */,
 				C733E8D7235F7F5300D1E70C /* Assets.xcassets */,
 				C733E8D9235F7F5300D1E70C /* LaunchScreen.storyboard */,
 				C733E8DC235F7F5400D1E70C /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C733E8E5235F821D00D1E70C /* Moneda.swift in Sources */,
+				C733E8E3235F81F000D1E70C /* Tirada.swift in Sources */,
 				C733E8D3235F7F5300D1E70C /* ViewController.swift in Sources */,
 				C733E8CF235F7F5300D1E70C /* AppDelegate.swift in Sources */,
 				C733E8D1235F7F5300D1E70C /* SceneDelegate.swift in Sources */,
