@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZt-AH-2ce">
-                                <rect key="frame" x="132" y="175" width="151" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZt-AH-2ce">
+                                <rect key="frame" x="140" y="174" width="134" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Lanzar moneda">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -26,19 +25,29 @@
                                     <action selector="LanzarPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OGG-EY-z7k"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LauncherImage" translatesAutoresizingMaskIntoConstraints="NO" id="x0G-Iy-gMy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LauncherImage" translatesAutoresizingMaskIntoConstraints="NO" id="x0G-Iy-gMy">
                                 <rect key="frame" x="79" y="320" width="256" height="256"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Prueba suerte!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgD-2z-RlV">
-                                <rect key="frame" x="137" y="690" width="140" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Prueba suerte!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgD-2z-RlV">
+                                <rect key="frame" x="141.5" y="719" width="131" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jZt-AH-2ce" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="5AP-ZF-Q30"/>
+                            <constraint firstItem="jZt-AH-2ce" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="7sS-Vi-GGr"/>
+                            <constraint firstItem="IgD-2z-RlV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LFq-7f-Uvu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IgD-2z-RlV" secondAttribute="bottom" constant="120" id="UJl-W5-Clv"/>
+                            <constraint firstItem="x0G-Iy-gMy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UTI-Ac-JuU"/>
+                            <constraint firstItem="jZt-AH-2ce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aZT-Qw-ozA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IgD-2z-RlV" secondAttribute="trailing" constant="141.5" id="aq2-Gd-a09"/>
+                            <constraint firstItem="x0G-Iy-gMy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gB9-RD-LIb"/>
+                            <constraint firstItem="IgD-2z-RlV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141.5" id="uY6-Qt-hwQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jZt-AH-2ce" secondAttribute="trailing" constant="140" id="zjM-Se-e8r"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
